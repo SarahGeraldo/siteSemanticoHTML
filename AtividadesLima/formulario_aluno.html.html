@@ -158,8 +158,8 @@
 
       <label for="Genero">Gênero:</label>
 
-      <input type="radio" name="Feminino" id="Feminino" />
-      <label for="Feminino">Feminino:</label>
+      <input type="radio" name="Nova Odessa" id="Nova Odessa" />
+      <label for="Nova Odessa">Nova Odessa:</label>
 
       <input type="radio" name="Masculino" id="Masculino" />
       <label for="Masculino">Masculino:</label>
@@ -170,8 +170,8 @@
       <label for="Estado">Estado:</label>
       <select name="Estado" id="Estado">
         <option>selecione</option>
-        <option value="BH">BH</option>
-        <option value="SP">SP</option>
+        <option value="Nova Odessa">Nova Odessa</option>
+        <option value="Masculino">Masculino</option>
         <option value="RS">RS</option>
         <option value="PA">PA</option>
       </select>
@@ -185,6 +185,93 @@
       <br />
       <br />
 
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <br />
+    <br />
+
+    <form action="">
+      <h1>Formulário de Cadastro</h1>
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="Nome">Nome:</label>
+        <input type="text" name="nome" id="Nome" />
+
+        <br />
+        <br />
+
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email" />
+
+        <br />
+        <br />
+
+        <label for="Telefone">Telefone:</label>
+        <input type="tel" name="Telefone" id="Telefone" />
+
+        <br />
+        <br />
+
+        <label for="Data_de_nascimento">Data de nascimento:</label>
+        <input type="date" name="Data_de_nascimento" id="Data_de_nascimento" />
+
+        <br />
+        <br />
+
+        <label for="Sexo">Sexo:</label>
+        <select name="Sexo" id="Sexo">
+          <option>selecione</option>
+          <option value="Feminino">Feminino</option>
+          <option value="Masculino">Masculino</option>
+        </select>
+
+        <br />
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Localização</legend>
+        <label for="Cidade">Cidade:</label>
+
+        <input type="radio" name="Nova Odessa" id="Nova Odessa" />
+        <label for="Nova Odessa">Nova Odessa:</label>
+
+        <input type="radio" name="Sumare" id="Sumare" />
+        <label for="Sumare">Sumare:</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>interesses</legend>
+        <label for="Selecione_seus_interesses"
+          >Selecione seus interesses:</label
+        >
+
+        <input
+          type="checkbox"
+          name="Selecione_seus_interesses"
+          id="Selecione_seus_interesses"
+        />
+        <label for="">Tecnologia:</label>
+
+        <input
+          type="checkbox"
+          name="Selecione_seus_interesses"
+          id="Selecione_seus_interesses"
+        />
+        <label for="">Espotes:</label>
+
+        <input
+          type="checkbox"
+          name="Selecione_seus_interesses"
+          id="Selecione_seus_interesses"
+        />
+        <label for="">Música:</label>
+      </fieldset>
+      <fieldset>
+        <legend>Mensagem</legend>
+        <textarea name="Mensagem" id="Mensagem" cols="20" rows="05"></textarea>
+      </fieldset>
       <input type="submit" value="Enviar" />
     </form>
   </body>
